@@ -119,7 +119,7 @@ int makeMove(char** board, int N, char player) {
 
     row--; col--;
 
-    if (board[row][col] != ' ') {
+    if (board[row][col] != ' ') {//checking whether it's already occupied
         printf("Cell already occupied! Try again.\n");
         return 0;
     }
